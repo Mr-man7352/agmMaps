@@ -1,5 +1,3 @@
-//app.component.ts
-
 import {
   Component,
   OnInit,

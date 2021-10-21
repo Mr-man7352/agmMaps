@@ -11,7 +11,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     AppRoutingModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyBvfWmwUNfDduXdU-0wiTRqWxK1jZH2R20',
+      apiKey: 'AIzaSyAF4i-J3prt6_X9GuI-48SBzroTYYkqPyk',
       libraries: ['places'],
     }),
   ],
