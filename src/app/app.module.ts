@@ -11,7 +11,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     AppRoutingModule,
     AgmCoreModule.forRoot({
-      apiKey: 'Give you api key',
+      apiKey: 'Give you google cloud map api key ',
       libraries: ['places'],
     }),
   ],
