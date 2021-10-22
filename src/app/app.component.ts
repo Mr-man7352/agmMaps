@@ -67,8 +67,8 @@ export class AppComponent implements OnInit {
 
   markerDragEnd($event) {
     console.log($event);
-    this.latitude = $event.coords.lat;
-    this.longitude = $event.coords.lng;
+    this.latitude = Number($event.latLng.lat());
+    this.longitude = Number($event.latLng.lng());
     this.getAddress(this.latitude, this.longitude);
   }
 
